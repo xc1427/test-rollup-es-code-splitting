@@ -1,0 +1,13 @@
+{
+  "name": "test-rollup-es-code-splitting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup src/index.js -f esm --dir dist --experimentalCodeSplitting"
+
+  },
+  "dependencies": {
+    "rollup": "^1.27.2"
+  }
+}

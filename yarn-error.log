@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/xichen/.nvm/versions/node/v12.10.0/bin/node /Users/xichen/.yarn/bin/yarn.js init
+
+PATH: 
+  /Users/xichen/.npm-global/bin:/Users/xichen/.yarn/bin:/Users/xichen/.config/yarn/global/node_modules/.bin:/Users/xichen/.nvm/versions/node/v12.10.0/bin:/Users/xichen/sofa:/Users/xichen/.oh-my-zsh/custom/plugins/git-open:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/xichen/.npm-global/bin:/Users/xichen/.yarn/bin:/Users/xichen/.config/yarn/global/node_modules/.bin:/Users/xichen/.nvm/versions/node/v12.10.0/bin:/Users/xichen/sofa:/Users/xichen/.oh-my-zsh/custom/plugins/git-open
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.10.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/xichen/.yarn/lib/cli.js:136724:13)
+      at Interface.emit (events.js:209:13)
+      at Interface._ttyWrite (readline.js:887:16)
+      at ReadStream.onkeypress (readline.js:191:10)
+      at ReadStream.emit (events.js:209:13)
+      at emitKeys (internal/readline/utils.js:433:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1153:36)
+      at ReadStream.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
